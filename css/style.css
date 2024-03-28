@@ -337,8 +337,8 @@ textarea::placeholder {
   height: 100%;
   background: #24262b;
   background-position: bottom;
-  background-repeat: repeat-x;
   background-repeat: no-repeat;
+  background-size: cover;
   min-width: 265px;
   position: fixed;
   top: 0
@@ -456,6 +456,12 @@ textarea::placeholder {
   width: 1px;
   background-color: #424945;
   margin-right: 30px
+}
+.page-content .page-content-header .header-panel .exit svg path {
+  transition: all .4s ease
+}
+.page-content .page-content-header .header-panel .exit:hover svg path {
+  fill: #53fc18
 }
 .page-content .page-content-header .header-panel .add-balance {
   margin: 0 15px;
@@ -824,6 +830,11 @@ textarea::placeholder {
   font-weight: 400;
   line-height: normal;
   text-align: left
+}
+.content-table table td.gridjs-td span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center
 }
 .content-table table td.gridjs-td .completed {
   min-width: 88px;
