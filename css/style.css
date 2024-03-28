@@ -1490,6 +1490,10 @@ textarea::placeholder {
     display: block;
     right: 0
   }
+  .menu-open .page-content .page-content-header .header-panel {
+    opacity: 0;
+    display: none
+  }
 }
 @media (max-width:1450px) {
   .column-grid {
