@@ -710,6 +710,9 @@ textarea::placeholder {
   border-top: 0;
   box-shadow: none
 }
+.content-table th.gridjs-th .gridjs-th-content {
+  overflow: auto
+}
 .content-table .gridjs-pagination {
   text-align: center
 }
@@ -1511,16 +1514,15 @@ textarea::placeholder {
     margin-left: 15px
   }
   .content-table table td.gridjs-td {
-    padding-left: 4px;
     width: 9%;
     font-size: 12px
   }
   .content-table table th {
-    padding-left: 4px;
+    padding-left: 10px;
     width: 9%
   }
   .content-table table td.gridjs-td {
-    padding-left: 4px
+    padding-left: 10px
   }
   .content-table table td .completed {
     min-width: auto
@@ -1658,11 +1660,12 @@ textarea::placeholder {
     font-size: 10px
   }
   th.gridjs-th {
-    padding: 5px 10px 5px 2px
+    padding: 5px 2px 5px 2px
   }
   .content-table table td .completed {
-    height: 20px;
-    padding: 0 2px
+    height: 20px!important;
+    padding: 0 2px!important;
+    min-width: auto!important
   }
   th.gridjs-th-sort .gridjs-th-content {
     width: 100%
