@@ -1405,13 +1405,6 @@ textarea::placeholder {
   .page-content .page-content-header {
     gap: 10px
   }
-  .page-content .page-content-header .header-panel {
-    gap: 10px;
-    position: absolute;
-    top: 22px;
-    right: 55px;
-    z-index: 202
-  }
   .page-content {
     margin-left: auto;
     padding-top: 30px
@@ -1562,6 +1555,24 @@ textarea::placeholder {
   }
 }
 @media (max-width:1080px) {
+  .page-content .page-content-header .header-panel {
+    gap: 10px;
+    position: absolute;
+    top: 22px;
+    right: 55px;
+    z-index: 202
+  }
+  .page-layout .sidebar {
+    position: fixed;
+    width: 100%
+  }
+  .page-content {
+    padding-top: 96px
+  }
+  .page-content .page-content-header {
+    padding-bottom: 20px;
+    margin-bottom: 20px
+  }
   .add-balance-page {
     gap: 30px
   }
@@ -1601,13 +1612,6 @@ textarea::placeholder {
   }
 }
 @media (max-width:780px) {
-  .page-layout .sidebar {
-    position: fixed;
-    width: 100%
-  }
-  .page-content {
-    padding-top: 96px
-  }
   .dashboard .middle-row .middle-items .box {
     padding: 15px
   }
